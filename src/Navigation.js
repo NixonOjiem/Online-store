@@ -58,7 +58,7 @@ function Navigation() {
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 35.6">
         <use href="#planner"></use>
     </svg>
-      <a href="">Planner</a>
+        <a href="">Planner</a>
     </li>
 
   </ul>

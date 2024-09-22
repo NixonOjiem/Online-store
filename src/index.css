@@ -26,6 +26,7 @@ code {
   &:hover {
     width:200px;
   }
+
   @media screen and (min-width: 600px) {
     width: 80px;
   }
