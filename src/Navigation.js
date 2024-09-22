@@ -31,7 +31,7 @@ function Navigation() {
     </svg>
 
 
-        <nav class="nav__cont">
+ <nav class="nav__cont">
   <ul class="nav">
     <li class="nav__items ">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
