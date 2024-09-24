@@ -11,7 +11,12 @@ function Navigation() {
   }
 
   function openNav() {
-    sidenavRef.current.style.width = "20%";
+    const screenWidth = window.innerWidth;
+    if (screenWidth < 600) {
+      sidenavRef.current.style.width = "80%";
+    } else {
+      sidenavRef.current.style.width = "25%";
+    }
   }
 
   return (
