@@ -20,7 +20,9 @@ function Navigation() {
         <span onClick={openNav} className='Hamburger'>
           <FontAwesomeIcon icon={faBars} size="2x" style={{ color: "#fafcff" }} className='Hamburger-icon' />
         </span>
-        
+
+        <h2 className='App-Name'>ShoppingLab</h2>
+
         <span className='User-icon'>
           <FontAwesomeIcon icon ={faUser} size="2x" className='user'/>
         </span>
