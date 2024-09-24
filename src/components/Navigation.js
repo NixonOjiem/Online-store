@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars} from '@fortawesome/free-solid-svg-icons';
 import {faUser} from '@fortawesome/free-solid-svg-icons';
+import {Link} from 'react-router-dom';
 
 function Navigation() {
   const sidenavRef = useRef(null);
@@ -36,10 +37,11 @@ function Navigation() {
       
       <div id="mySidenav" ref={sidenavRef} class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onClick={closeNav}>&times;</a>
-        <a href="#">Electronics</a>
-        <a href="#">Funiture</a>
-        <a href="#">Catlery</a>
-        <a href="#">Promotions</a>
+        <Link to='/electronics'>Electronics</Link>
+        <Link to='/furniture'>Furniture</Link>
+        <Link to='/cutlery'>Cutlery</Link>
+        <Link to='/clothing'>Clothing</Link>
+        <Link to='/promotion'>Promotion</Link>
       </div>
       
     </>
