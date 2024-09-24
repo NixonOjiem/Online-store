@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars} from '@fortawesome/free-solid-svg-icons';
 
 function Navigation() {
   const sidenavRef = useRef(null);
@@ -17,7 +17,7 @@ function Navigation() {
     <>
       <div className='Top-Bar'>
         <span onClick={openNav} className='Hamburger'>
-        <FontAwesomeIcon icon={faBars} style={{ color: "#fafcff" }} />
+        <FontAwesomeIcon icon={faBars} size="2x" style={{ color: "#fafcff" }} className='Hamburger-icon' />
 
         </span>
       </div>
