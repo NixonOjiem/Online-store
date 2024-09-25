@@ -6,6 +6,7 @@ import FunitureScreen from './pages/FunitureScreen';
 import PromotionsScreen from './pages/PromotionsScreen';
 import ClothingScreen from './pages/ClothingScreen';
 import HomeScreen from './pages/HomeScreen';
+import ErrorScreen from './pages/ErrorScreen';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
           <Route path='/furniture' element={<FunitureScreen />} />
           <Route path= '/promotion' element={<PromotionsScreen />} />
           <Route path='/clothing' element={<ClothingScreen />} />
-          {/**Create page 404 */}
+          <Route path='/*' element={<ErrorScreen />} />
+
         </Routes>
       </BrowserRouter>
     </div>

@@ -80,3 +80,10 @@
   width: 100%;
   z-index: -1;
 }
+.Error{
+  position: absolute;
+  margin-top: 50px;
+  height: auto;
+  width: 100%;
+  z-index: -1;
+}
