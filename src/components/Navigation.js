@@ -37,6 +37,7 @@ function Navigation() {
       
       <div id="mySidenav" ref={sidenavRef} class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onClick={closeNav}>&times;</a>
+        <Link to='/home'>Home</Link>
         <Link to='/electronics'>Electronics</Link>
         <Link to='/furniture'>Furniture</Link>
         <Link to='/cutlery'>Cutlery</Link>

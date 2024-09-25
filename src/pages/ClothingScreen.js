@@ -5,7 +5,9 @@ function ClothingScreen() {
   return (
     <div>
         <Navigation />
-        <p>Clothing</p>
+        <div className='Clothing-comp1'>
+            Clothing
+        </div>
     </div>
   )
 }

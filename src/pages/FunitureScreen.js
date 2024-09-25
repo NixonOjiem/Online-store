@@ -5,7 +5,9 @@ function FunitureScreen() {
   return (
     <div>
       <Navigation />
-      <p>Furniture</p>
+      <div className='Furniture-comp1'>
+        Furniture
+      </div>
     </div>
   )
 }

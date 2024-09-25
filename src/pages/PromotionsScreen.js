@@ -7,7 +7,9 @@ function PromotionsScreen() {
   return (
     <div>
        <Navigation />
-       <p>Promotion</p>
+       <div className='Promotion-comp1'>
+          promotion
+       </div>
     </div>
   )
 }

@@ -3,7 +3,7 @@
   /* text-align: center; */
 }
 .My-Header{
-  background-color: #07022d;
+  background-color: #111;
   height: auto;
   width: auto;
   color: aliceblue;
@@ -46,6 +46,34 @@
   z-index: -1;
 }
 .Cutlery-comp1{
+  position: absolute;
+  margin-top: 50px;
+  height: auto;
+  width: 100%;
+  z-index: -1;
+}
+.Clothing-comp1{
+  position: absolute;
+  margin-top: 50px;
+  height: auto;
+  width: 100%;
+  z-index: -1;
+}
+.Promotion-comp1{
+  position: absolute;
+  margin-top: 50px;
+  height: auto;
+  width: 100%;
+  z-index: -1;
+}
+.Furniture-comp1{
+  position: absolute;
+  margin-top: 50px;
+  height: auto;
+  width: 100%;
+  z-index: -1;
+}
+.Home-comp1{
   position: absolute;
   margin-top: 50px;
   height: auto;
