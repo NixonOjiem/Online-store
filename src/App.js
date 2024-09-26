@@ -21,7 +21,6 @@ function App() {
           <Route path= '/promotion' element={<PromotionsScreen />} />
           <Route path='/clothing' element={<ClothingScreen />} />
           <Route path='/*' element={<ErrorScreen />} />
-
         </Routes>
       </BrowserRouter>
     </div>
