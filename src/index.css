@@ -52,3 +52,18 @@ code {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+.Page-Heading{
+  margin-bottom: 0px;
+}
+
+.Category-Name{
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+.mouse-pics {
+  width: 150px; /* adjust the value to your desired size */
+  height: 150px; /* adjust the value to your desired size */
+}
+.mouse-pic-row{
+  max-width: 100%;
+}

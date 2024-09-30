@@ -7,7 +7,7 @@ function ElectronicsScreen() {
     <div className='Electronics-Container'>
         <Navigation />
         <div className='Electronics-comp1'>
-           <h2>Elelctronics</h2><br />
+           <h3 className='Page-Heading'>Elelctronics</h3>
             <MousePics />
             
         </div>
