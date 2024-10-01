@@ -9,7 +9,7 @@ function ElectronicsScreen() {
         <Navigation />
         <div className='Electronics-comp1'>
            <h3 className='Page-Heading'>Elelctronics page</h3>
-            <MousePics />
+            <MousePics /><br />
             <PhonePics />
             
         </div>
