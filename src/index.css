@@ -63,6 +63,12 @@ code {
 .mouse-pics {
   width: 150px; /* adjust the value to your desired size */
   height: 150px; /* adjust the value to your desired size */
+  margin: 5px;
+}
+.mouse-pics:hover{
+  width: 155px;
+  height: 155px;
+  transition-timing-function: ease-in-out;
 }
 .mouse-pic-row{
   max-width: 100%;

@@ -16,7 +16,7 @@ function MousePics() {
     <div className='mouse-container'>
         <h4 className='Category-Name'>Top Selling mouse</h4>
         <div className='mouse-pic-row'>
-            <img src= {mouse1} className='mouse-pics'/>
+            {/* <img src= {mouse1} className='mouse-pics'/> */}
             <img src= {mouse2} className='mouse-pics'/>
             <img src= {mouse3} className='mouse-pics'/>
             <img src= {mouse4} className='mouse-pics'/>
