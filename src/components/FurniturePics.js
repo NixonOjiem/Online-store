@@ -1,4 +1,12 @@
-import React from 'react'
+import React from 'react';
+import furniture1 from '../images/furniture1.jpg';
+import furniture2 from '../images/furniture2.jpg';
+import furniture3 from '../images/furniture3.jpg';
+import furniture4 from '../images/furniture4.jpg';
+import furniture5 from '../images/furniture5.jpg';
+import furniture6 from '../images/furniture6.jpg';
+import furniture7 from '../images/furniture7.jpg';
+import furniture8 from '../images/furniture8.jpg';
 
 function FurniturePics() {
 
@@ -33,44 +41,40 @@ function FurniturePics() {
       });
 
   return (
-<div className='Category-container'>
-        <h4 className='Category-Name'>Top Selling mouse</h4>
+    <div className='Category-container'>
+        <h4 className='Category-Name'>Top Selling sofas</h4>
         <div className='row'>
           <div className='pic-container'>
-            <img src= {mouse1} className='product-pics' onClick={() => handleClick(mouse1, 'Custom U16')}/>
+            <img src= {furniture1} className='product-pics' onClick={() => handleClick(furniture1, 'Custom U16')}/>
             <p>Custom U16</p>
           </div>
           <div className='pic-container'>
-            <img src= {mouse2} className='product-pics' onClick={() => handleClick(mouse2, 'Custom H15')}/>
+            <img src= {furniture2} className='product-pics' onClick={() => handleClick(furniture2, 'Custom H15')}/>
             <p>Custom H15</p>
           </div>
           <div className='pic-container'>
-            <img src= {mouse3} className='product-pics' onClick={() => handleClick(mouse3, 'Custom P14')}/>
+            <img src= {furniture3} className='product-pics' onClick={() => handleClick(furniture3, 'Custom P14')}/>
             <p>Custom P14</p>
           </div>
           <div className='pic-container'>
-            <img src= {mouse4} className='product-pics' onClick={() => handleClick(mouse4, 'Custom M15')}/>
+            <img src= {furniture4} className='product-pics' onClick={() => handleClick(furniture4, 'Custom M15')}/>
             <p>Custom M15</p>
           </div>
           <div className='pic-container'>
-            <img src= {mouse5} className='product-pics' onClick={() => handleClick(mouse5, 'Custom N15')}/>
+            <img src= {furniture5} className='product-pics' onClick={() => handleClick(furniture5, 'Custom N15')}/>
             <p>Custom N15</p>
           </div>
           <div className='pic-container'>
-            <img src= {mouse6} className='product-pics' onClick={() => handleClick(mouse6, 'Custom R15')}/>
+            <img src= {furniture6} className='product-pics' onClick={() => handleClick(furniture6, 'Custom R15')}/>
             <p>Custom R15</p>
           </div>
           <div className='pic-container'>
-            <img src= {mouse7} className='product-pics' onClick={() => handleClick(mouse7, 'Custom X15')}/>
+            <img src= {furniture7} className='product-pics' onClick={() => handleClick(furniture7, 'Custom X15')}/>
             <p>Custom X15</p>
           </div>
           <div className='pic-container'>
-            <img src= {mouse8} className='product-pics' onClick={() => handleClick(mouse8, 'Custom Y15')}/>
+            <img src= {furniture8} className='product-pics' onClick={() => handleClick(furniture8, 'Custom Y15')}/>
             <p>Custom Y15</p>
-          </div>
-          <div className='pic-container'>
-            <img src= {mouse9} className='product-pics' onClick={() => handleClick(mouse9, 'Custom Z15')}/>
-            <p>Custom Z15</p>
           </div>
         </div>
     </div>
