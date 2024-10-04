@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import FurniturePics from '../components/FurniturePics';
+import BedPics from '../components/BedPics';
 
 function FunitureScreen() {
   return (
@@ -8,7 +9,8 @@ function FunitureScreen() {
       <Navigation />
       <div className='Furniture-comp1'>
       <h3 className='Page-Heading'>Furniture Page</h3>
-        <FurniturePics />
+      <FurniturePics />
+      <BedPics />
       </div>
     </div>
   )
