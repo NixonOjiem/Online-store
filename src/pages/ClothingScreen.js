@@ -1,12 +1,13 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
+import ClothingPic from '../components/ClothingPic'
 
 function ClothingScreen() {
   return (
     <div>
         <Navigation />
         <div className='Clothing-comp1'>
-            Clothing
+            <ClothingPic />
         </div>
     </div>
   )
