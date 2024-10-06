@@ -4,6 +4,8 @@ import MousePics from '../components/MousePics';
 import PhonePics from '../components/PhonePics';
 import FurniturePics from '../components/FurniturePics';
 import BedPics from '../components/BedPics';
+import ClothingPic from '../components/ClothingPic';
+import TrouserPics from '../components/TrouserPics';
 
 function HomeScreen() {
   return (
@@ -14,7 +16,10 @@ function HomeScreen() {
             <MousePics /> <br />
             <FurniturePics />
             <PhonePics /> <br />
+            <TrouserPics />
             <BedPics />
+            <ClothingPic /> <br />
+            
         </div>
     </div>
   )
