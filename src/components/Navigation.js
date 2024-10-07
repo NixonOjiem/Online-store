@@ -40,9 +40,9 @@ function Navigation() {
         <Link to='/home'>Home</Link>
         <Link to='/electronics'>Electronics</Link>
         <Link to='/furniture'>Furniture</Link>
-        <Link to='/cutlery'>Cutlery</Link>
+        {/* <Link to='/cutlery'>Cutlery</Link> */}
         <Link to='/clothing'>Clothing</Link>
-        <Link to='/promotion'>Promotion</Link>
+        {/* <Link to='/promotion'>Promotion</Link> */}
       </div>
       
     </>
