@@ -20,7 +20,7 @@ function App() {
           <Route path='/furniture' element={<FunitureScreen />} />
           <Route path= '/promotion' element={<PromotionsScreen />} />
           <Route path='/clothing' element={<ClothingScreen />} />
-          <Route path='/*' element={<ErrorScreen />} />
+          <Route path='/*' element={<HomeScreen  />} />
         </Routes>
       </BrowserRouter>
     </div>

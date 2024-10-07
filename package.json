@@ -1,7 +1,7 @@
 {
   "name": "online-shop",
   "version": "1.1.0",
-  "homepage": "https://NixonOjiem.github.io/Online-store",
+  "homepage": "https://NixonOjiem.github.io/Online-store/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",

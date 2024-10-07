@@ -23,7 +23,7 @@ function FurniturePics() {
         // Add the image and name to the content element
         content.innerHTML = `
         <img src=${image} class="popup-image"/>
-        <h2>${name}</h2>
+        <h2>${name}</h2> <br />
         <p>More details about ${name}...</p>
         `;
     
